@@ -46,7 +46,7 @@
 #let water_pump_figure = [
   #figure(
   image("/media/pump.jpg", width: 50%),
-  caption: [Water Pump or Solenoid valve.],
+  caption: [Water Pump.],
 )
 ]
 
@@ -59,20 +59,20 @@
 
 #let flow_chart_figure = [
   #figure(
-  image("/media/flow_chart.png"),
+  image("/media/chart.png",width: 50%),
   caption: [Flow chart of the system.],
 )
 ]
 
-#let dh22_sensor = [
+#let dht22_sensor = [
   #figure(
-  image("/media/dht22_sensor.jpg"),
+  image("/media/dht22_sensor.jpg",width: 50%),
   caption: [DHT22 Sensor.],
 )]
 
 #let ldr_sensor = [
   #figure(
-  image("/media/ldr.webp"),
+  image("/media/ldr.webp",width: 50%),
   caption: [Light-Dependent Resistor.],
   )
 
@@ -82,5 +82,49 @@
   #figure(
   image("/media/soil_sensor.webp", width: 50%),
   caption: [Soil Moisture sensor.],
+)
+]
+
+#let arduino_uno = [
+  #figure(
+  image("/media/Arduino_Uno_-_R3.jpg", width: 50%),
+  caption: [Arduino Uno.],
+)
+]
+#let heating_element= [
+  #figure(
+  image("/media/heating_element.jpg", width: 50%),
+  caption: [Heating Element.],
+)
+]
+#let led_bulb= [
+  #figure(
+  image("/media/led.jpg", width: 50%),
+  caption: [led_bulb.],
+)
+]
+#let fan_figure= [
+  #figure(
+  image("/media/fan.jpg", width: 50%),
+  caption:[fan_figure.],
+)
+]
+#let cables_wiring_figure= [
+  #figure(
+  image("/media/cables.webp", width: 50%),
+  caption:[cables.],
+)
+]
+#let lcd_display= [
+  #figure(
+  image("/media/lcd_display.jpg", width: 50%),
+  caption:[lcd dipaly.],
+)
+]
+
+#let system_diagram= [
+  #figure(
+  image("/media/block_diagram.jpg", width: 100%),
+  caption:[System Diagram.],
 )
 ]

@@ -3,6 +3,7 @@
 = Methodology
 
 == System Block Diagram
+#system_diagram
 
 === Greenhouse Monitoring and Control Architecture
 
@@ -28,7 +29,7 @@ Soil moisture sensors measure the water content of the soil and provide feedback
 
 Similarly, temperature and humidity sensors monitor the greenhouse environment. If the temperature exceeds the set limit, ventilation fans are activated to reduce heat. In cold conditions, heating elements may be turned on to maintain optimal temperature. This closed-loop control mechanism ensures stable environmental conditions at all times.
 
-The automated operation reduces manual effort, conserves water and energy, and improves plant growth by maintaining consistent and optimal greenhouse conditions
+The automated operation reduces manual effort, conserves water and energy, and improves plant growth by maintaining consistent and optimal greenhouse conditions.
 
 
 
