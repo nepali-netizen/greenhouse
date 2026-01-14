@@ -29,20 +29,6 @@
 )
 ]
 
-#let led_figure = [
-  #figure(
-  image("/media/led.png", width: 30%),
-  caption: [LED Bulbs.],
-)
-]
-
-#let opto_coupler_figure = [
-  #figure(
-  image("/media/octo_coupler.jpg", width: 50%),
-  caption: [Opto-coupler.],
-)
-]
-
 #let water_pump_figure = [
   #figure(
   image("/media/pump.jpg", width: 50%),
